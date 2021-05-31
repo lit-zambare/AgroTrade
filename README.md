@@ -17,6 +17,7 @@ A Blockchain based Decentralized platform for trading agricultural products usin
 <br>
 
 - Steps to run contracts test
+
   - cd into BlockChain_Smart_Contracts
   ```
   cd BlockChain_Smart_Contracts
