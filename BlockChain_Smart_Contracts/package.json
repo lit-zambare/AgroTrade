@@ -1,0 +1,33 @@
+{
+  "name": "agro-trade",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "ganache-cli": "./tools/run_ganache_cli.sh",
+    "test": "npm run test:contracts",
+    "test:contracts": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blockchain-Agro/agro-trade.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Blockchain-Agro/agro-trade/issues"
+  },
+  "homepage": "https://github.com/Blockchain-Agro/agro-trade#readme",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "bn": "^1.0.5",
+    "bootstrap": "^4.4.1",
+    "ganache-cli": "^6.9.1",
+    "openzeppelin-solidity": "^2.5.0",
+    "react-router-dom": "^5.1.2",
+    "web3": "^1.2.6"
+  }
+}
